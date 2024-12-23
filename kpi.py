@@ -23,7 +23,7 @@ Olá Luciano, o seu bônus foi de 8500
 def calculadora():
     nome_usuario = str(input("Seja bem vindo à calculadora de bônus de 2024!\nInsira seu nome: "))
     salario = int(input("Inserir salário: "))
-    kpi = int(1000 + salario * 1.5)
+    kpi = int(1000 + (salario * 1.5))
     print(f"Olá {nome_usuario}, o seu valor bônus foi de R${kpi}")
 
 
